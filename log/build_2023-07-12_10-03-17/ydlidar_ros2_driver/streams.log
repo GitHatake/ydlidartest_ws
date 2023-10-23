@@ -1,0 +1,62 @@
+[0.009s] Invoking command in '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[0.042s] [ 50%] Built target ydlidar_ros2_driver_client
+[0.045s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[1.617s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[1.618s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.618s]   168 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[1.618s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.618s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.618s]   169 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[1.618s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.618s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.618s]   170 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[1.618s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.628s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[1.628s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.628s]   178 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[1.628s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.628s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.628s]   179 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[1.628s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.628s] [01m[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.628s]   180 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[1.628s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.358s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[3.532s] [100%] Built target ydlidar_ros2_driver_node
+[3.540s] Invoked command in '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[3.557s] Invoking command in '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver
+[3.561s] -- Install configuration: ""
+[3.562s] -- Execute custom install script
+[3.562s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[3.562s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[3.562s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[3.563s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[3.564s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[3.565s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[3.565s] -- Symlinking: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[3.569s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[3.570s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[3.570s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[3.570s] -- Up-to-date symlink: /home/hatakeyama/ros/lidartest_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[3.571s] Invoked command in '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver

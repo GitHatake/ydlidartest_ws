@@ -1,0 +1,857 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000208] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.006703] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.006868] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.007331] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver', '--', '-j8', '-l8'], 'cwd': '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP.UTF-8'), ('USER', 'hatakeyama'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hatakeyama'), ('OLDPWD', '/home/hatakeyama'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1526'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hatakeyama'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hatakeyama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aokilab-hatake:@/tmp/.ICE-unix/1508,unix/aokilab-hatake:/tmp/.ICE-unix/1508'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89307eb4_2836_4f32_a1fb_43e812a57994'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56VW71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hatakeyama/ros/lidartest_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032326] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[0.039628] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.043206] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.099236] (-) TimerEvent: {}
+[0.199445] (-) TimerEvent: {}
+[0.299700] (-) TimerEvent: {}
+[0.399954] (-) TimerEvent: {}
+[0.500212] (-) TimerEvent: {}
+[0.600471] (-) TimerEvent: {}
+[0.700730] (-) TimerEvent: {}
+[0.801027] (-) TimerEvent: {}
+[0.901284] (-) TimerEvent: {}
+[1.001547] (-) TimerEvent: {}
+[1.101808] (-) TimerEvent: {}
+[1.202070] (-) TimerEvent: {}
+[1.302336] (-) TimerEvent: {}
+[1.402596] (-) TimerEvent: {}
+[1.502858] (-) TimerEvent: {}
+[1.603115] (-) TimerEvent: {}
+[1.616634] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.617156] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:51:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [13])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.617223] (ydlidar_ros2_driver) StderrLine: {'line': b'   51 |   \x1b[01;31m\x1b[Knode->declare_parameter("ignore_array")\x1b[m\x1b[K;\n'}
+[1.617576] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.617815] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.617984] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.618210] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.618349] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.618501] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.618672] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.618808] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.618853] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.618986] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:51:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.619124] (ydlidar_ros2_driver) StderrLine: {'line': b'   51 |   \x1b[01;36m\x1b[Knode->declare_parameter("ignore_array")\x1b[m\x1b[K;\n'}
+[1.619171] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.619306] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.619445] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.619494] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.619627] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.619671] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.619805] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.619864] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.619987] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.620130] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.620266] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:51:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.620403] (ydlidar_ros2_driver) StderrLine: {'line': b'   51 |   \x1b[01;36m\x1b[Knode->declare_parameter("ignore_array")\x1b[m\x1b[K;\n'}
+[1.620447] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.620490] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.620533] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.620577] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.620624] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.620667] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.620712] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.620756] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.620805] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.620849] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.620896] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.620939] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.620982] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.621024] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:56:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.621068] (ydlidar_ros2_driver) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[Knode->declare_parameter("frame_id")\x1b[m\x1b[K;\n'}
+[1.621110] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.621153] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.621196] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.621238] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.621280] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.621323] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.621366] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.621408] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.621450] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.621493] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:56:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.621536] (ydlidar_ros2_driver) StderrLine: {'line': b'   56 |   \x1b[01;36m\x1b[Knode->declare_parameter("frame_id")\x1b[m\x1b[K;\n'}
+[1.621578] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.621621] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.621663] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.621709] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.621751] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.621793] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.621836] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.621879] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.621921] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.621963] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.622005] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:56:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.622050] (ydlidar_ros2_driver) StderrLine: {'line': b'   56 |   \x1b[01;36m\x1b[Knode->declare_parameter("frame_id")\x1b[m\x1b[K;\n'}
+[1.622092] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.622135] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.622177] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.622219] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.622260] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.622302] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.622348] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.622390] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.622432] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.622480] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.622523] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.622566] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.622612] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.622654] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:62:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.622698] (ydlidar_ros2_driver) StderrLine: {'line': b'   62 |   \x1b[01;31m\x1b[Knode->declare_parameter("baudrate")\x1b[m\x1b[K;\n'}
+[1.622740] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.622782] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.622824] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.622866] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.622908] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.622951] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.622995] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.623038] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.623079] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.623122] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.623164] (ydlidar_ros2_driver) StderrLine: {'line': b'   62 |   \x1b[01;36m\x1b[Knode->declare_parameter("baudrate")\x1b[m\x1b[K;\n'}
+[1.623206] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.623248] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.623291] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.623333] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.623379] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.623424] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.623466] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.623515] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.623558] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.623600] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.623642] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.623685] (ydlidar_ros2_driver) StderrLine: {'line': b'   62 |   \x1b[01;36m\x1b[Knode->declare_parameter("baudrate")\x1b[m\x1b[K;\n'}
+[1.623727] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.623769] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.623811] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.623853] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.623895] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.623940] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.624061] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.624106] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.624148] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.624190] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.624233] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.624275] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.624317] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.624359] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:67:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.624402] (ydlidar_ros2_driver) StderrLine: {'line': b'   67 |   \x1b[01;31m\x1b[Knode->declare_parameter("lidar_type")\x1b[m\x1b[K;\n'}
+[1.624444] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.624490] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.624533] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.624575] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.624617] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.624659] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.624703] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.624745] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.624788] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.624830] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:67:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.624873] (ydlidar_ros2_driver) StderrLine: {'line': b'   67 |   \x1b[01;36m\x1b[Knode->declare_parameter("lidar_type")\x1b[m\x1b[K;\n'}
+[1.624915] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.624958] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.625002] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.625045] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.625087] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.625129] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.625172] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.625215] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.625258] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.625300] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.625342] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:67:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.625388] (ydlidar_ros2_driver) StderrLine: {'line': b'   67 |   \x1b[01;36m\x1b[Knode->declare_parameter("lidar_type")\x1b[m\x1b[K;\n'}
+[1.625430] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.625472] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.625518] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.625561] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.625603] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.625649] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.625693] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.625736] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.625778] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.625821] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.625864] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.625906] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.625949] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.625991] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:72:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.626034] (ydlidar_ros2_driver) StderrLine: {'line': b'   72 |   \x1b[01;31m\x1b[Knode->declare_parameter("device_type")\x1b[m\x1b[K;\n'}
+[1.626130] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.626209] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.626252] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.626294] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.626335] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.626378] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.626424] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.626468] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.626510] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.626552] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:72:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.626594] (ydlidar_ros2_driver) StderrLine: {'line': b'   72 |   \x1b[01;36m\x1b[Knode->declare_parameter("device_type")\x1b[m\x1b[K;\n'}
+[1.626636] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.626677] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.626718] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.626760] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.626802] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.626844] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.626885] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.626931] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.626974] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.627017] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.627059] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:72:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.627101] (ydlidar_ros2_driver) StderrLine: {'line': b'   72 |   \x1b[01;36m\x1b[Knode->declare_parameter("device_type")\x1b[m\x1b[K;\n'}
+[1.627146] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.627188] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.627230] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.627275] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.627320] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.627363] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.627444] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.627486] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.627527] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.627570] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.627613] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.627655] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.627696] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.627738] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:77:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.627781] (ydlidar_ros2_driver) StderrLine: {'line': b'   77 |   \x1b[01;31m\x1b[Knode->declare_parameter("sample_rate")\x1b[m\x1b[K;\n'}
+[1.627824] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.627866] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.627908] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.627953] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.627995] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.628037] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.628080] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.628122] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.628164] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.628210] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:77:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.628252] (ydlidar_ros2_driver) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[Knode->declare_parameter("sample_rate")\x1b[m\x1b[K;\n'}
+[1.628294] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.628336] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.628378] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.628420] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.628462] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.628504] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.628546] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.628589] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.628647] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.628690] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.628753] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:77:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.628797] (ydlidar_ros2_driver) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[Knode->declare_parameter("sample_rate")\x1b[m\x1b[K;\n'}
+[1.628842] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.628885] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.628928] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.628970] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.629012] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.629055] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.629099] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.629158] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.629205] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.629263] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.629306] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.629349] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.629392] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.629451] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:82:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [21])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.629529] (ydlidar_ros2_driver) StderrLine: {'line': b'   82 |   \x1b[01;31m\x1b[Knode->declare_parameter("abnormal_check_count")\x1b[m\x1b[K;\n'}
+[1.629573] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.629631] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.629691] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.629746] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.629789] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.629831] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.629875] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.629919] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.629961] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.630004] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:82:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.630047] (ydlidar_ros2_driver) StderrLine: {'line': b'   82 |   \x1b[01;36m\x1b[Knode->declare_parameter("abnormal_check_count")\x1b[m\x1b[K;\n'}
+[1.630090] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.630132] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.630174] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.630220] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.630262] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.630304] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.630346] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.630392] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.630434] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.630477] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.630522] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:82:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.630565] (ydlidar_ros2_driver) StderrLine: {'line': b'   82 |   \x1b[01;36m\x1b[Knode->declare_parameter("abnormal_check_count")\x1b[m\x1b[K;\n'}
+[1.630606] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.630648] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.630690] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.630745] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.630785] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.630827] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.630869] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.630910] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.630951] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.630995] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.631037] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.631081] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.631122] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.631163] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:88:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [14])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.631205] (ydlidar_ros2_driver) StderrLine: {'line': b'   88 |   \x1b[01;31m\x1b[Knode->declare_parameter("intensity_bit")\x1b[m\x1b[K;\n'}
+[1.631246] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.631286] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.631327] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.631371] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.631472] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.631513] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.631555] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.631597] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.631638] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.631679] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:88:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.631721] (ydlidar_ros2_driver) StderrLine: {'line': b'   88 |   \x1b[01;36m\x1b[Knode->declare_parameter("intensity_bit")\x1b[m\x1b[K;\n'}
+[1.631762] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.631802] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.631843] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.631884] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.631925] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.631966] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.632010] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.632058] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.632099] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.632139] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.632179] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:88:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.632221] (ydlidar_ros2_driver) StderrLine: {'line': b'   88 |   \x1b[01;36m\x1b[Knode->declare_parameter("intensity_bit")\x1b[m\x1b[K;\n'}
+[1.632263] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.632304] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.632345] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.632386] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.632426] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.632470] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.632513] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.632554] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.632595] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.632636] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.632677] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.632718] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.632758] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.632800] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:95:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.632841] (ydlidar_ros2_driver) StderrLine: {'line': b'   95 |   \x1b[01;31m\x1b[Knode->declare_parameter("fixed_resolution")\x1b[m\x1b[K;\n'}
+[1.632885] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.632927] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.632969] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.633009] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.633050] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.633092] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.633134] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.633174] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.633215] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.633256] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:95:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.633299] (ydlidar_ros2_driver) StderrLine: {'line': b'   95 |   \x1b[01;36m\x1b[Knode->declare_parameter("fixed_resolution")\x1b[m\x1b[K;\n'}
+[1.633340] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.633381] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.633422] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.633466] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.633507] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.633548] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.633592] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.633634] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.633675] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.633717] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.633759] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:95:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.633805] (ydlidar_ros2_driver) StderrLine: {'line': b'   95 |   \x1b[01;36m\x1b[Knode->declare_parameter("fixed_resolution")\x1b[m\x1b[K;\n'}
+[1.633846] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.633887] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.633929] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.633971] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.634012] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.634053] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.634097] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.634138] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.634179] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.634236] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.634280] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.634322] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.634364] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.634405] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:100:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.634460] (ydlidar_ros2_driver) StderrLine: {'line': b'  100 |   \x1b[01;31m\x1b[Knode->declare_parameter("reversion")\x1b[m\x1b[K;\n'}
+[1.634501] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.634542] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.634583] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.634623] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.634664] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.634708] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.634750] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.634791] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.634834] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.634875] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:100:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.634916] (ydlidar_ros2_driver) StderrLine: {'line': b'  100 |   \x1b[01;36m\x1b[Knode->declare_parameter("reversion")\x1b[m\x1b[K;\n'}
+[1.634958] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.635001] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.635042] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.635082] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.635126] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.635167] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.635208] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.635252] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.635293] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.635333] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.635400] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:100:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.635471] (ydlidar_ros2_driver) StderrLine: {'line': b'  100 |   \x1b[01;36m\x1b[Knode->declare_parameter("reversion")\x1b[m\x1b[K;\n'}
+[1.635511] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.635551] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.635592] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.635635] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.635677] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.635718] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.635760] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.635801] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.635841] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.635882] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.635924] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.635965] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.636005] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.636047] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:105:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.636089] (ydlidar_ros2_driver) StderrLine: {'line': b'  105 |   \x1b[01;31m\x1b[Knode->declare_parameter("inverted")\x1b[m\x1b[K;\n'}
+[1.636129] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.636170] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.636211] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.636252] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.636293] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.636335] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.636378] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.636419] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.636460] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.636504] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:105:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.636548] (ydlidar_ros2_driver) StderrLine: {'line': b'  105 |   \x1b[01;36m\x1b[Knode->declare_parameter("inverted")\x1b[m\x1b[K;\n'}
+[1.636590] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.636634] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.636679] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.636720] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.636761] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.636803] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.636844] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.636886] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.636927] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.636968] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.637010] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:105:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.637051] (ydlidar_ros2_driver) StderrLine: {'line': b'  105 |   \x1b[01;36m\x1b[Knode->declare_parameter("inverted")\x1b[m\x1b[K;\n'}
+[1.637092] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.637132] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.637173] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.637214] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.637254] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.637295] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.637337] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.637381] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.637422] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.637462] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.637503] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.637559] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.637663] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.637719] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:109:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [15])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.637761] (ydlidar_ros2_driver) StderrLine: {'line': b'  109 |   \x1b[01;31m\x1b[Knode->declare_parameter("auto_reconnect")\x1b[m\x1b[K;\n'}
+[1.637802] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.637842] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.637882] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.637923] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.637963] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.638003] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.638045] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.638085] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.638131] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.638172] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:109:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.638216] (ydlidar_ros2_driver) StderrLine: {'line': b'  109 |   \x1b[01;36m\x1b[Knode->declare_parameter("auto_reconnect")\x1b[m\x1b[K;\n'}
+[1.638257] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.638297] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.638340] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.638381] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.638422] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.638463] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.638504] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.638545] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.638586] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.638626] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.638667] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:109:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.638725] (ydlidar_ros2_driver) StderrLine: {'line': b'  109 |   \x1b[01;36m\x1b[Knode->declare_parameter("auto_reconnect")\x1b[m\x1b[K;\n'}
+[1.638766] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.638808] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.638850] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.638892] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.638933] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.638975] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.639019] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.639061] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.639102] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.639145] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.639219] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.639278] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.639319] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.639364] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:114:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [16])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.639460] (ydlidar_ros2_driver) StderrLine: {'line': b'  114 |   \x1b[01;31m\x1b[Knode->declare_parameter("isSingleChannel")\x1b[m\x1b[K;\n'}
+[1.639501] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.639541] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.639582] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.639625] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.639666] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.639707] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.639752] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.639792] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.639836] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.639878] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:114:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.639919] (ydlidar_ros2_driver) StderrLine: {'line': b'  114 |   \x1b[01;36m\x1b[Knode->declare_parameter("isSingleChannel")\x1b[m\x1b[K;\n'}
+[1.639959] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.640000] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.640040] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.640081] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.640122] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.640163] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.640204] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.640248] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.640288] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.640328] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.640369] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:114:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.640411] (ydlidar_ros2_driver) StderrLine: {'line': b'  114 |   \x1b[01;36m\x1b[Knode->declare_parameter("isSingleChannel")\x1b[m\x1b[K;\n'}
+[1.640451] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.640492] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.640533] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.640574] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.640615] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.640656] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.640698] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.640738] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.640778] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.640819] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.640877] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.640918] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.640958] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.640999] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:119:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.641047] (ydlidar_ros2_driver) StderrLine: {'line': b'  119 |   \x1b[01;31m\x1b[Knode->declare_parameter("intensity")\x1b[m\x1b[K;\n'}
+[1.641089] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.641131] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.641173] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.641214] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.641260] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.641302] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.641348] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.641390] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.641432] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.641474] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:119:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.641516] (ydlidar_ros2_driver) StderrLine: {'line': b'  119 |   \x1b[01;36m\x1b[Knode->declare_parameter("intensity")\x1b[m\x1b[K;\n'}
+[1.641558] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.641600] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.641641] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.641683] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.641725] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.641766] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.641810] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.641852] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.641894] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.641935] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.641977] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:119:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.642023] (ydlidar_ros2_driver) StderrLine: {'line': b'  119 |   \x1b[01;36m\x1b[Knode->declare_parameter("intensity")\x1b[m\x1b[K;\n'}
+[1.642065] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.642106] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.642148] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.642189] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.642231] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.642272] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.642315] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.642357] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.642398] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.642442] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.642486] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.642527] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.642568] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.642609] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:124:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.642651] (ydlidar_ros2_driver) StderrLine: {'line': b'  124 |   \x1b[01;31m\x1b[Knode->declare_parameter("support_motor_dtr")\x1b[m\x1b[K;\n'}
+[1.642691] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.642733] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.642776] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.642817] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.642862] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.642904] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.642946] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.642988] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.643029] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.643070] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:124:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.643112] (ydlidar_ros2_driver) StderrLine: {'line': b'  124 |   \x1b[01;36m\x1b[Knode->declare_parameter("support_motor_dtr")\x1b[m\x1b[K;\n'}
+[1.643154] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.643195] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.643236] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.643277] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.643319] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.643360] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.643430] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.643489] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.643531] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.643572] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.643614] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:124:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.643657] (ydlidar_ros2_driver) StderrLine: {'line': b'  124 |   \x1b[01;36m\x1b[Knode->declare_parameter("support_motor_dtr")\x1b[m\x1b[K;\n'}
+[1.643699] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.643740] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.643782] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.643827] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.643870] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.643915] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.643959] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.644000] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.644042] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.644084] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.644127] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.644169] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.644210] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.644253] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:131:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.644298] (ydlidar_ros2_driver) StderrLine: {'line': b'  131 |   \x1b[01;31m\x1b[Knode->declare_parameter("angle_max")\x1b[m\x1b[K;\n'}
+[1.644340] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.644381] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.644426] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.644467] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.644509] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.644552] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.644595] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.644637] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.644681] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.644723] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:131:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.644765] (ydlidar_ros2_driver) StderrLine: {'line': b'  131 |   \x1b[01;36m\x1b[Knode->declare_parameter("angle_max")\x1b[m\x1b[K;\n'}
+[1.644806] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.644847] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.644887] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.644928] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.644968] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.645010] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.645051] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.645092] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.645133] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.645174] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.645216] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:131:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.645260] (ydlidar_ros2_driver) StderrLine: {'line': b'  131 |   \x1b[01;36m\x1b[Knode->declare_parameter("angle_max")\x1b[m\x1b[K;\n'}
+[1.645301] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.645342] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.645383] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.645425] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.645466] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.645508] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.645553] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.645595] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.645636] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.645678] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.645719] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.645760] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.645802] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.645846] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:135:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.645893] (ydlidar_ros2_driver) StderrLine: {'line': b'  135 |   \x1b[01;31m\x1b[Knode->declare_parameter("angle_min")\x1b[m\x1b[K;\n'}
+[1.645934] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.645975] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.646017] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.646058] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.646099] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.646140] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.646183] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.646225] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.646266] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.646308] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:135:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.646350] (ydlidar_ros2_driver) StderrLine: {'line': b'  135 |   \x1b[01;36m\x1b[Knode->declare_parameter("angle_min")\x1b[m\x1b[K;\n'}
+[1.646391] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.646433] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.646477] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.646519] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.646562] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.646603] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.646645] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.646690] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.646733] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.646775] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.646817] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:135:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.646876] (ydlidar_ros2_driver) StderrLine: {'line': b'  135 |   \x1b[01;36m\x1b[Knode->declare_parameter("angle_min")\x1b[m\x1b[K;\n'}
+[1.646950] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.647006] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.647048] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.647089] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.647131] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.647173] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.647216] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.647257] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.647299] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.647340] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.647413] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.647469] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.647509] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.647553] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:140:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.647596] (ydlidar_ros2_driver) StderrLine: {'line': b'  140 |   \x1b[01;31m\x1b[Knode->declare_parameter("range_max")\x1b[m\x1b[K;\n'}
+[1.647636] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.647677] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.647719] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.647760] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.647801] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.647842] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.647884] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.647925] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.647966] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.648008] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:140:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.648049] (ydlidar_ros2_driver) StderrLine: {'line': b'  140 |   \x1b[01;36m\x1b[Knode->declare_parameter("range_max")\x1b[m\x1b[K;\n'}
+[1.648090] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.648131] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.648174] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.648216] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.648257] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.648297] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.648342] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.648384] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.648425] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.648466] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.648507] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:140:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.648549] (ydlidar_ros2_driver) StderrLine: {'line': b'  140 |   \x1b[01;36m\x1b[Knode->declare_parameter("range_max")\x1b[m\x1b[K;\n'}
+[1.648590] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.648634] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.648677] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.648718] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.648759] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.648801] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.648845] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.648886] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.648928] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.648973] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.649019] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.649061] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.649103] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.649145] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:144:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.649190] (ydlidar_ros2_driver) StderrLine: {'line': b'  144 |   \x1b[01;31m\x1b[Knode->declare_parameter("range_min")\x1b[m\x1b[K;\n'}
+[1.649232] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.649274] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.649315] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.649357] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.649399] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.649440] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.649482] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.649523] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.649565] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.649609] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:144:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.649652] (ydlidar_ros2_driver) StderrLine: {'line': b'  144 |   \x1b[01;36m\x1b[Knode->declare_parameter("range_min")\x1b[m\x1b[K;\n'}
+[1.649694] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.649735] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.649777] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.649818] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.649859] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.649900] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.649941] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.649985] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.650026] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.650066] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.650110] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:144:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.650152] (ydlidar_ros2_driver) StderrLine: {'line': b'  144 |   \x1b[01;36m\x1b[Knode->declare_parameter("range_min")\x1b[m\x1b[K;\n'}
+[1.650193] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.650234] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.650275] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.650316] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.650357] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.650398] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.650443] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.650484] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.650524] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.650569] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.650610] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.650651] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.650692] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.650734] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:149:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.650775] (ydlidar_ros2_driver) StderrLine: {'line': b'  149 |   \x1b[01;31m\x1b[Knode->declare_parameter("frequency")\x1b[m\x1b[K;\n'}
+[1.650817] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.650858] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.650900] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.650941] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.650987] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.651029] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.651071] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.651112] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651153] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.651194] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:149:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.651236] (ydlidar_ros2_driver) StderrLine: {'line': b'  149 |   \x1b[01;36m\x1b[Knode->declare_parameter("frequency")\x1b[m\x1b[K;\n'}
+[1.651277] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651319] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.651361] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.651407] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.651449] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.651491] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.651533] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.651576] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.651618] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.651660] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.651702] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:149:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.651746] (ydlidar_ros2_driver) StderrLine: {'line': b'  149 |   \x1b[01;36m\x1b[Knode->declare_parameter("frequency")\x1b[m\x1b[K;\n'}
+[1.651789] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651830] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.651871] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.651916] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.651958] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.652002] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.652048] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.652090] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652131] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.652173] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.652215] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.652257] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652298] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.652340] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:154:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::declare_parameter(const char [21])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.652384] (ydlidar_ros2_driver) StderrLine: {'line': b'  154 |   \x1b[01;31m\x1b[Knode->declare_parameter("invalid_range_is_inf")\x1b[m\x1b[K;\n'}
+[1.652428] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652468] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.652509] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.652550] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.652591] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.652631] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.652673] (ydlidar_ros2_driver) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.652713] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652756] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.652797] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:154:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.652839] (ydlidar_ros2_driver) StderrLine: {'line': b'  154 |   \x1b[01;36m\x1b[Knode->declare_parameter("invalid_range_is_inf")\x1b[m\x1b[K;\n'}
+[1.652879] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652920] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.652961] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.653003] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.653044] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.653086] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.653126] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.653168] (ydlidar_ros2_driver) StderrLine: {'line': b'  215 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameter(\n'}
+[1.653208] (ydlidar_ros2_driver) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.653249] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.653290] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:154:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.653332] (ydlidar_ros2_driver) StderrLine: {'line': b'  154 |   \x1b[01;36m\x1b[Knode->declare_parameter("invalid_range_is_inf")\x1b[m\x1b[K;\n'}
+[1.653373] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653413] (ydlidar_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.653454] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.653497] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.653538] (ydlidar_ros2_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:23\x1b[m\x1b[K:\n'}
+[1.653582] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.653628] (ydlidar_ros2_driver) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.653669] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653746] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.653789] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.653833] (ydlidar_ros2_driver) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[1.653874] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653916] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[1.653957] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.653998] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654042] (ydlidar_ros2_driver) StderrLine: {'line': b'  168 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[1.654083] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.654124] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654168] (ydlidar_ros2_driver) StderrLine: {'line': b'  169 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[1.654209] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.654250] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654293] (ydlidar_ros2_driver) StderrLine: {'line': b'  170 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[1.654334] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.654375] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.654419] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654463] (ydlidar_ros2_driver) StderrLine: {'line': b'  178 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[1.654505] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.654546] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654588] (ydlidar_ros2_driver) StderrLine: {'line': b'  179 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[1.654629] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.654670] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hatakeyama/ros/lidartest_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654716] (ydlidar_ros2_driver) StderrLine: {'line': b'  180 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[1.654760] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.703230] (-) TimerEvent: {}
+[1.803469] (-) TimerEvent: {}
+[1.903726] (-) TimerEvent: {}
+[2.003979] (-) TimerEvent: {}
+[2.104231] (-) TimerEvent: {}
+[2.204485] (-) TimerEvent: {}
+[2.304610] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[2.304824] (-) TimerEvent: {}
+[2.305010] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ydlidar_ros2_driver_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[2.305086] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[2.306364] (ydlidar_ros2_driver) CommandEnded: {'returncode': 2}
+[2.328776] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 2}
+[2.339256] (-) EventReactorShutdown: {}
